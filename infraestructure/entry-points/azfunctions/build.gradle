@@ -1,0 +1,8 @@
+dependencies {
+    implementation project(':domain-model')
+    implementation project(':domain-usecase')
+
+    implementation "org.springframework.cloud:spring-cloud-function-adapter-azure:4.0.2"
+    testImplementation "org.springframework.boot:spring-boot-starter-test:${springBootVersion}"
+    compileOnly "org.springframework.cloud:spring-cloud-starter-function-web:4.0.2"
+}

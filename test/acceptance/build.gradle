@@ -1,0 +1,5 @@
+dependencies {
+    runtimeOnly('org.springframework.boot:spring-boot-devtools:2.7.0')
+    implementation 'org.reactivecommons:async-commons-rabbit-starter:1.0.4'
+}
+

@@ -1,0 +1,26 @@
+POST http://localhost:8080/task
+Content-Type: application/json
+
+{
+  "name": "Develop App 10",
+  "description": "Should develop sample app 10"
+}
+
+POST http://localhost:8080/task/assign
+Content-Type: application/json
+
+{
+  "taskId": "0790170f-52b9-49ec-a46e-62713e8f87bc",
+  "userId": "35"
+}
+
+POST http://localhost:8080/task/0790170f-52b9-49ec-a46e-62713e8f87bc/complete
+Accept: application/json
+
+
+GET http://localhost:8080/task/aabad75d-c975-4570-92c0-c8cb645626b5
+Accept: application/json
+
+
+GET http://localhost:8080/task
+

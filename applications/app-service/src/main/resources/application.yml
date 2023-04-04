@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: app
+app:
+  context: /api
+  #SELF_APP_CONFIGURATION_OPT
+
